@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, D:/ruanchengyun/project/QuartusPrime/experimen1.3_VotingDevice/VotingDevice.vhd
+source_file = 1, d:/developsoftware/quartus-lite-22.1std.1.917-windows/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/developsoftware/quartus-lite-22.1std.1.917-windows/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/developsoftware/quartus-lite-22.1std.1.917-windows/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/developsoftware/quartus-lite-22.1std.1.917-windows/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, D:/ruanchengyun/project/QuartusPrime/experimen1.3_VotingDevice/db/VotingDevice.cbx.xml
+design_name = VotingDevice
+instance = comp, \result~output , result~output, VotingDevice, 1
+instance = comp, \vote[0]~input , vote[0]~input, VotingDevice, 1
+instance = comp, \vote[2]~input , vote[2]~input, VotingDevice, 1
+instance = comp, \vote[3]~input , vote[3]~input, VotingDevice, 1
+instance = comp, \vote[1]~input , vote[1]~input, VotingDevice, 1
+instance = comp, \LessThan0~0 , LessThan0~0, VotingDevice, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, VotingDevice, 1

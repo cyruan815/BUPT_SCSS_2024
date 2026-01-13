@@ -1,0 +1,36 @@
+|CodeLock
+clk => stored_password[0].CLK
+clk => stored_password[1].CLK
+clk => stored_password[2].CLK
+clk => current_state~1.DATAIN
+reset => stored_password[0].PRESET
+reset => stored_password[1].ACLR
+reset => stored_password[2].PRESET
+reset => current_state~3.DATAIN
+data_in => stored_password.DATAB
+data_in => stored_password.DATAB
+data_in => stored_password.DATAB
+data_in => process_1.IN1
+data_in => process_1.IN1
+data_in => process_1.IN1
+set_mode => stored_password.OUTPUTSELECT
+set_mode => stored_password.OUTPUTSELECT
+set_mode => stored_password.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => next_state.OUTPUTSELECT
+set_mode => Selector0.IN7
+set_mode => next_state.S_SET_INIT.DATAB
+set_mode => next_state.S_SET_P1.DATAB
+set_mode => next_state.S_SET_P2.DATAB
+set_mode => next_state.S_SET_DONE.DATAB
+set_mode => Selector0.IN4
+set_mode => Selector0.IN5
+set_mode => Selector0.IN6
+set_mode => Selector1.IN2
+unlocked <= unlocked.DB_MAX_OUTPUT_PORT_TYPE
+
+

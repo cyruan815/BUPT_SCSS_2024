@@ -1,0 +1,115 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/experimen1.3_VotingDevice/simulation/qsim
+T_opt
+!s110 1749777233
+VdU[3bln2W7X3JQFm44bcM1
+04 24 17 work votingdevice_vhd_vec_tst votingdevice_arch 1
+=1-40c2ba37fc9f-684b7b4f-3b7-4d6c
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Evotingdevice
+Z2 w1749777224
+Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z4 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z6 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+!i122 2
+R1
+Z10 8VotingDevice.vho
+Z11 FVotingDevice.vho
+l0
+L37 1
+Ve?=1c:LPjkJn0jkFWZ@Cj2
+!s100 GV9>;;`f]bQD79Zb?3OL33
+Z12 OL;C;2021.2;73
+32
+Z13 !s110 1749777230
+!i10b 1
+Z14 !s108 1749777229.000000
+Z15 !s90 -work|work|VotingDevice.vho|
+Z16 !s107 VotingDevice.vho|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 12 votingdevice 0 22 e?=1c:LPjkJn0jkFWZ@Cj2
+!i122 2
+l75
+L52 123
+VE0;_l13JZZG?b;<Nm8;?Q0
+!s100 Olh[K[?i>]B=ibKh7FU>L3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Evotingdevice_vhd_vec_tst
+Z19 w1749777222
+R7
+R8
+!i122 3
+R1
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+VLW`6bh`BNLeTAQkeLfoVk1
+!s100 5<^_GC9DW3[aAkK2gAZ8h1
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1749777230.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 0
+R17
+R18
+Avotingdevice_arch
+R7
+R8
+DEx4 work 24 votingdevice_vhd_vec_tst 0 22 LW`6bh`BNLeTAQkeLfoVk1
+!i122 3
+l45
+L34 67
+VcT_3[K1<HQGC9Z1KRzSJT0
+!s100 z3Vf@b`7em7DS]LSgi7gk3
+R12
+32
+R13
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R17
+R18

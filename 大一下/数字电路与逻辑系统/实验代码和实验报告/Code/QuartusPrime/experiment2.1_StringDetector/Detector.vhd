@@ -1,0 +1,111 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity Detector is
+	port(
+		clk	: IN std_logic;	--时钟信号
+		reset	: IN std_logic;	--复位信号
+		data	: IN std_logic;	--输入
+		cout	: OUT std_logic	--输出检测结果
+	);
+end Detector;
+
+
+architecture arch of Detector is
+	type state is (s0, s1, s2, s3, s4, s5, s6, s7);		--八个状态
+	signal current_state, next_state : state;
+
+	
+begin
+
+
+	--进程1：处理异步复位和上升沿触发状态转换
+	process(clk,reset)
+	begin
+		if reset = '1'	then
+			current_state <= s0;
+		elsif rising_edge(clk)	then
+			current_state <= next_state;
+		end if;
+	end process;
+	
+	
+	--进程2：根据状态转移表，决定状态转移
+	process(data,current_state)
+	begin
+		next_state <= S0;
+		
+		case current_state is
+			when s0 =>
+				if data = '0'	then 
+					next_state <= s0;
+				else 
+					next_state <= s1;
+				end if;
+			
+			when s1 =>		--已检测到‘1’
+				if data = '0'	then
+					next_state <= s0;
+				else
+					next_state <= s2;
+				end if;
+					
+			when s2 =>		--已检测到‘11’
+				if data = '0'	then
+					next_state <= s0;
+				else
+					next_state <= s3;
+				end if;
+					
+			when s3 =>		--已检测到‘111’
+				if data = '0'	then
+					next_state <= s4;
+				else
+					next_state <= s3;
+				end if;
+					
+			when s4 =>		--已检测到‘1110’
+				if data = '0'	then
+					next_state <= s5;
+				else
+					next_state <= s1;
+				end if;
+					
+			when s5 =>		--已检测到‘11100’
+				if data = '0'	then
+					next_state <= s0;
+				else
+					next_state <= s6;
+				end if;
+					
+			when s6 =>		--已检测到‘111001’
+				if data = '0'	then
+					next_state <= s7;
+				else
+					next_state <= s2; 
+				end if;
+				
+			when s7 =>		--已检测到‘1110010’
+				if data = '0'	then
+					next_state <= s0;
+				else
+					next_state <= s1;
+				end if;
+				
+		end case;
+	end process;
+	
+	
+	--进程3：输出检测结果
+	process(current_state)
+	begin
+		if current_state = s7	then
+			cout <= '1';
+		else 
+			cout <= '0';
+		end if;
+	end process;
+	
+end arch; 
+			

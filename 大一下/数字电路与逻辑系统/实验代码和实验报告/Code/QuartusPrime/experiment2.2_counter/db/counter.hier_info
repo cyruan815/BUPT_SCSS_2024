@@ -1,0 +1,15 @@
+|counter
+clk => temp[0].CLK
+clk => temp[1].CLK
+clk => temp[2].CLK
+clk => temp[3].CLK
+reset => temp.OUTPUTSELECT
+reset => temp.OUTPUTSELECT
+reset => temp.OUTPUTSELECT
+reset => temp.OUTPUTSELECT
+count[0] <= temp[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= temp[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= temp[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= temp[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

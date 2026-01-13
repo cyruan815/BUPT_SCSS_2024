@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity countet is
+	port(
+		clk	: IN std_logic;
+		reset	: IN std_logic;
+		count	: OUT std_logic_vector(3 downto 0)
+	);
+end counter;
+
+architecture arch of counter is
+	signal temp :	std_logic_vector(3 downto 0);
+begin
+	process(clk, reset)
+	begin
+		if rising_edge(clk) then
+			if(reset = '1') then
+				temp <= (others => '0');
+			else 
+				temp <= temp + 1;
+			end if;
+		end if;
+	end process;
+	
+	count <= temp;
+end arch;

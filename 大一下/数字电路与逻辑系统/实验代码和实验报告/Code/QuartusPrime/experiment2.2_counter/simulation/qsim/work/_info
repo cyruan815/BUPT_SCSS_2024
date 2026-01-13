@@ -1,0 +1,125 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/experiment2.2_counter/simulation/qsim
+T_opt
+!s110 1749787120
+V`OjB@25=E0N5HThGdH2D<1
+04 19 12 work counter_vhd_vec_tst counter_arch 1
+=1-40c2ba37fc9f-684ba1ee-2ac-3a10
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ecounter
+Z2 w1749787114
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z5 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 e00>IzQH:zzKLmoiZWR@Y1
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx6 altera 28 altera_primitives_components 0 22 LmYK4j9cM>=6]FFXgTbb31
+!i122 14
+R1
+Z12 8counter.vho
+Z13 Fcounter.vho
+l0
+L39 1
+V2H9T30D]5SGYD3nIm_<DE0
+!s100 o1HKI5K7_JG97H<Bk5m<[0
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1749787117
+!i10b 1
+Z16 !s108 1749787116.000000
+Z17 !s90 -work|work|counter.vho|
+Z18 !s107 counter.vho|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 7 counter 0 22 2H9T30D]5SGYD3nIm_<DE0
+!i122 14
+l81
+L56 265
+V0o74hPgDbNmC8H5Ia[[jV2
+!s100 b;GzVUCMi[YD^GHZ<5]1H3
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Ecounter_vhd_vec_tst
+Z21 w1749787112
+R9
+R10
+!i122 15
+R1
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32 1
+Vg3lK<gOQ5n8z^81zz;C3c0
+!s100 @m]I_;O^DT`jOiAi_XlH42
+R14
+32
+R15
+!i10b 1
+Z24 !s108 1749787117.000000
+Z25 !s90 -work|work|Waveform.vwf.vht|
+Z26 !s107 Waveform.vwf.vht|
+!i113 0
+R19
+R20
+Acounter_arch
+R9
+R10
+DEx4 work 19 counter_vhd_vec_tst 0 22 g3lK<gOQ5n8z^81zz;C3c0
+!i122 15
+l47
+L34 49
+VGC]@L?b6cZFmEZkPKlh8[0
+!s100 =;m^I<=2[gA;^SG1ln5gP2
+R14
+32
+R15
+!i10b 1
+R24
+R25
+R26
+!i113 0
+R19
+R20

@@ -1,0 +1,127 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/experiment2.1_StringDetector/simulation/qsim
+T_opt
+!s110 1749777507
+V=zK;@DKfg2gjUcocnHK[`2
+04 20 13 work detector_vhd_vec_tst detector_arch 1
+=1-40c2ba37fc9f-684b7c61-368-4c2c
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Edetector
+Z2 w1749777501
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z5 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 e00>IzQH:zzKLmoiZWR@Y1
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx6 altera 28 altera_primitives_components 0 22 LmYK4j9cM>=6]FFXgTbb31
+!i122 18
+R1
+Z12 8Detector.vho
+Z13 FDetector.vho
+l0
+L39 1
+V5^H=0=c2l@Pe@UKG^:1W[0
+!s100 PNjzC@W]JbTbZNeoaH[eo0
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1749777504
+!i10b 1
+Z16 !s108 1749777504.000000
+Z17 !s90 -work|work|Detector.vho|
+Z18 !s107 Detector.vho|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 8 detector 0 22 5^H=0=c2l@Pe@UKG^:1W[0
+!i122 18
+l101
+L55 392
+VCMH6ba07?6?fj<4QH_@cM1
+!s100 bBT@FCeVYTcM?bDg6J77n3
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Edetector_vhd_vec_tst
+Z21 w1749777499
+R9
+R10
+!i122 19
+R1
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32 1
+VL<^?F>FBHAf^ShZA4aQBW3
+!s100 3c2BJdAI77hTUj;:FfP>Y2
+R14
+32
+R15
+!i10b 1
+R16
+Z24 !s90 -work|work|Waveform.vwf.vht|
+Z25 !s107 Waveform.vwf.vht|
+!i113 0
+R19
+R20
+Adetector_arch
+R9
+R10
+DEx4 work 20 detector_vhd_vec_tst 0 22 L<^?F>FBHAf^ShZA4aQBW3
+!i122 19
+l49
+L34 159
+V`NULgR?1@B2Wd:;:`g<U82
+!s100 dgA2Fk34k>Kc6UKQeNn@H1
+R14
+32
+R15
+!i10b 1
+R16
+R24
+R25
+!i113 0
+R19
+R20

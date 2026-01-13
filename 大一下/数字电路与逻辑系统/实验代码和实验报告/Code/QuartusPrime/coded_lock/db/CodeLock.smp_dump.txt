@@ -1,0 +1,11 @@
+
+State Machine - |CodeLock|current_state
+Name current_state.S_SET_DONE current_state.S_SET_P2 current_state.S_SET_P1 current_state.S_SET_INIT current_state.S_UNLOCKED current_state.S_P2_OK current_state.S_P1_OK current_state.S_IDLE 
+current_state.S_IDLE 0 0 0 0 0 0 0 0 
+current_state.S_P1_OK 0 0 0 0 0 0 1 1 
+current_state.S_P2_OK 0 0 0 0 0 1 0 1 
+current_state.S_UNLOCKED 0 0 0 0 1 0 0 1 
+current_state.S_SET_INIT 0 0 0 1 0 0 0 1 
+current_state.S_SET_P1 0 0 1 0 0 0 0 1 
+current_state.S_SET_P2 0 1 0 0 0 0 0 1 
+current_state.S_SET_DONE 1 0 0 0 0 0 0 1 

@@ -1,0 +1,116 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/experiment1.2_Fulladder/simulation/qsim
+T_opt
+!s110 1749777046
+VEho?K2@US6I>A@7@nf;Bl3
+04 21 14 work fulladder_vhd_vec_tst fulladder_arch 1
+=1-40c2ba37fc9f-684b7a94-22e-1a84
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+R1
+Efulladder
+Z2 w1749787050
+Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z4 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z6 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+!i122 4
+R1
+Z10 8FullAdder.vho
+Z11 FFullAdder.vho
+l0
+L37 1
+VE4=mEnYnElJEPcM66RX0W1
+!s100 6NRnK9TJPOdlU2?efL^Zl2
+Z12 OL;C;2021.2;73
+32
+Z13 !s110 1749787054
+!i10b 1
+Z14 !s108 1749787053.000000
+Z15 !s90 -work|work|FullAdder.vho|
+Z16 !s107 FullAdder.vho|
+!i113 0
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 9 fulladder 0 22 E4=mEnYnElJEPcM66RX0W1
+!i122 4
+l80
+L55 144
+VYSmf[X=7d<H7CYB>00>]W1
+!s100 ;lQoh4MR^Sf>N:23de]LI3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Efulladder_vhd_vec_tst
+Z19 w1749787048
+R7
+R8
+!i122 5
+R1
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L32 1
+V0SZ`JRdiNR?DZkOzJd6D_0
+!s100 c;8TPlC2dJC[hUPi67k7[0
+R12
+32
+R13
+!i10b 1
+Z22 !s108 1749787054.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 0
+R17
+R18
+Afulladder_arch
+R7
+R8
+Z25 DEx4 work 21 fulladder_vhd_vec_tst 0 22 0SZ`JRdiNR?DZkOzJd6D_0
+!i122 5
+l51
+Z26 L34 66
+Z27 VifePHY1Wgj5fD44^dA5K41
+Z28 !s100 <hVlX?4gXoD29BhcGIWg]3
+R12
+32
+R13
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R17
+R18

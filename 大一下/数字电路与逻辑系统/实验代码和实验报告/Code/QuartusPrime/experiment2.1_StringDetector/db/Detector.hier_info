@@ -1,0 +1,14 @@
+|Detector
+clk => current_state~1.DATAIN
+reset => current_state~3.DATAIN
+data => next_state.s1.DATAB
+data => next_state.s2.DATAB
+data => next_state.s3.DATAB
+data => next_state.s6.DATAB
+data => Selector0.IN1
+data => next_state.s4.DATAB
+data => next_state.s5.DATAB
+data => next_state.s7.DATAB
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

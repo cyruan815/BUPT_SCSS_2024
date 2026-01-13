@@ -1,0 +1,124 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/experiment2.3_Register74374/simulation/qsim
+T_opt
+!s110 1749782221
+V`X`EAH0Va:<n^A>Tnk;5m2
+04 25 18 work register74374_vhd_vec_tst register74374_arch 1
+=1-40c2ba37fc9f-684b8ecc-28-50b4
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Eregister74374
+Z2 w1749782215
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z5 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 e00>IzQH:zzKLmoiZWR@Y1
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx6 altera 28 altera_primitives_components 0 22 LmYK4j9cM>=6]FFXgTbb31
+!i122 12
+R1
+Z12 8Register74374.vho
+Z13 FRegister74374.vho
+l0
+L39 1
+Vh<<oOmJ49g^>cL=iSWHk12
+!s100 I0WM8ao1Vl10ndi6OF3I_1
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1749782218
+!i10b 1
+Z16 !s108 1749782218.000000
+Z17 !s90 -work|work|Register74374.vho|
+Z18 !s107 Register74374.vho|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 13 register74374 0 22 h<<oOmJ49g^>cL=iSWHk12
+!i122 12
+l110
+L69 518
+Vijckgd5LMc=anKaN^DV8g1
+!s100 B65h_DSZWY_:@o`@HTG4P1
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Eregister74374_vhd_vec_tst
+Z21 w1749782213
+R9
+R10
+!i122 13
+R1
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32 1
+V;^CeBeBagkO>UH;@JBmSJ2
+!s100 LK86Z;5HW<0W9V0MLR?P30
+R14
+32
+Z24 !s110 1749782219
+!i10b 1
+R16
+Z25 !s90 -work|work|Waveform.vwf.vht|
+Z26 !s107 Waveform.vwf.vht|
+!i113 0
+R19
+R20
+Aregister74374_arch
+R9
+R10
+DEx4 work 25 register74374_vhd_vec_tst 0 22 ;^CeBeBagkO>UH;@JBmSJ2
+!i122 13
+l49
+L34 1711
+VU^I>21i=nL2W[3^g4zkLP0
+!s100 5EIFlO?eX?iW>>4^8P6io0
+R14
+32
+R24
+!i10b 1
+R16
+R25
+R26
+!i113 0
+R19
+R20

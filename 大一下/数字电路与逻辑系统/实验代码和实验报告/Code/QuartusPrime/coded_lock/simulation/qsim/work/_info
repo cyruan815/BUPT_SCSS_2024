@@ -1,0 +1,122 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ruanchengyun/project/QuartusPrime/coded_lock/simulation/qsim
+T_opt
+!s110 1749351036
+V^Em2ieJ?96H<>d7dU:WBh0
+04 20 13 work codelock_vhd_vec_tst codelock_arch 1
+=1-40c2ba37fc9f-6844fa79-1a0-497c
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim +acc
+tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+Ecodelock
+Z2 w1749351025
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 R8Q7=S23TZUfZQX`okYmE0
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 H=8iUO_;6mj;RW=_Y;3Q`2
+Z5 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 82eQ[5IPhEe@J>8ZDdjdY0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 e00>IzQH:zzKLmoiZWR@Y1
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z11 DPx6 altera 28 altera_primitives_components 0 22 LmYK4j9cM>=6]FFXgTbb31
+!i122 8
+R1
+Z12 8CodeLock.vho
+Z13 FCodeLock.vho
+l0
+L39 1
+VSa?`2?VRn2LfcKEJCGl<20
+!s100 9`N9jGc]ZO@CFo_J5ci@c2
+Z14 OL;C;2021.2;73
+32
+Z15 !s110 1749351030
+!i10b 1
+Z16 !s108 1749351030.000000
+Z17 !s90 -work|work|CodeLock.vho|
+Z18 !s107 CodeLock.vho|
+!i113 0
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 8 codelock 0 22 Sa?`2?VRn2LfcKEJCGl<20
+!i122 8
+l114
+L57 533
+VzNSoJCm;;]7SZ;iIJ3EPe3
+!s100 hI]TZ0@Zm?NLT6oV>eiT73
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 0
+R19
+R20
+Ecodelock_vhd_vec_tst
+Z21 w1749351023
+R9
+R10
+!i122 9
+R1
+Z22 8Waveform.vwf.vht
+Z23 FWaveform.vwf.vht
+l0
+L32 1
+VD8A3M?IGXai2<8em_V7RM0
+!s100 6^4?Q4]maPQX;?HR=[<zV1
+R14
+32
+Z24 !s110 1749351031
+!i10b 1
+Z25 !s108 1749351031.000000
+Z26 !s90 -work|work|Waveform.vwf.vht|
+Z27 !s107 Waveform.vwf.vht|
+!i113 0
+R19
+R20
+Acodelock_arch
+R9
+R10
+DEx4 work 20 codelock_vhd_vec_tst 0 22 D8A3M?IGXai2<8em_V7RM0
+!i122 9
+l51
+L34 109
+VmEaMzdFk>9JI@M?jN@@LR0
+!s100 HQeeYZ2fAdWUYBCS1Z3Dk2
+R14
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R19
+R20

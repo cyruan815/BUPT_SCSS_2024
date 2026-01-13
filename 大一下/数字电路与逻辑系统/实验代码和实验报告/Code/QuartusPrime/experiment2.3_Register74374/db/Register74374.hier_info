@@ -1,0 +1,43 @@
+|Register74374
+D[0] => temp[0].DATAIN
+D[1] => temp[1].DATAIN
+D[2] => temp[2].DATAIN
+D[3] => temp[3].DATAIN
+D[4] => temp[4].DATAIN
+D[5] => temp[5].DATAIN
+D[6] => temp[6].DATAIN
+D[7] => temp[7].DATAIN
+CLK => temp[0].CLK
+CLK => temp[1].CLK
+CLK => temp[2].CLK
+CLK => temp[3].CLK
+CLK => temp[4].CLK
+CLK => temp[5].CLK
+CLK => temp[6].CLK
+CLK => temp[7].CLK
+OE => Q[0].OE
+OE => Q[1].OE
+OE => Q[2].OE
+OE => Q[3].OE
+OE => Q[4].OE
+OE => Q[5].OE
+OE => Q[6].OE
+OE => Q[7].OE
+OE => temp[7].ENA
+OE => temp[6].ENA
+OE => temp[5].ENA
+OE => temp[4].ENA
+OE => temp[3].ENA
+OE => temp[2].ENA
+OE => temp[1].ENA
+OE => temp[0].ENA
+Q[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Q[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Q[5].DB_MAX_OUTPUT_PORT_TYPE
+Q[6] <= Q[6].DB_MAX_OUTPUT_PORT_TYPE
+Q[7] <= Q[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

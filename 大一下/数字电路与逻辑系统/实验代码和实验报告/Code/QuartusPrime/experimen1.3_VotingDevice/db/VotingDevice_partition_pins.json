@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "result",
+					"strict" : false
+				},
+				{
+					"name" : "vote[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
